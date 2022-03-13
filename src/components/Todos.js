@@ -86,7 +86,7 @@ const Todos = (props) => {
         <p className="w-screen text-center my-2 text-2xl text-slate-400 underline">Welcome back! {props.user.displayName}</p>
         <form onSubmit={onSubmitTodo} className='md:text-xl px-2 text-center'>
           <input
-            className="bg-transparent focus:outline-none my-20 w-[300px] md:w-[600px]"
+            className="bg-transparent focus:outline-none my-20 w-[180px] sm:w-[300px] md:w-[600px]"
             required
             value={todo}
             onChange={(e) => setTodo(e.target.value)}

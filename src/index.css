@@ -18,6 +18,6 @@ code {
 
 @layer components {
     .modal {
-      @apply max-h-[50rem] md:max-h-[40rem] overflow-y-auto fixed top-48 w-11/12 bg-white bg-opacity-10 p-4 rounded-card shadow-md z-30 animate-slideDown;
+      @apply max-h-[20rem] sm:max-h-[50rem] lg:max-h-[20rem] overflow-y-auto fixed top-48 w-11/12 bg-white bg-opacity-10 p-4 rounded-card shadow-md z-30 animate-slideDown;
     }
 }
